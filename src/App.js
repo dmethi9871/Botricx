@@ -16,6 +16,7 @@ import Keypoints from './components/Keypoints';
 import IntroPage from './components/Intropage1';
 import ServicesPage1 from './components/ServicesPage1';
 import PortfolioPage1 from './components/Portfoliopage1';
+import DemoProduct from './pages/DemoProduct';
 
 function App() {
   useEffect(() => {
@@ -45,7 +46,7 @@ function App() {
             <Route path="/Keypoints" element={<Keypoints/>} />
             <Route path="/Products" element={<PortfolioPage1/>} />
             <Route path="/Services" element={<ServicesPage1 />} />
-         
+            <Route path="/get-demo" element={<DemoProduct/>} />
           </Routes>
         </ScrollToTop>
       </Router>

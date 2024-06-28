@@ -27,9 +27,10 @@ const Footer = () => {
                         <div className="space-y-4">
                             <h2 className="text-2xl font-bold text-gray-800 mb-4">Quick Links</h2>
                             <ul className="text-l text-gray-800 mb-4">
-                                <li><HashLink to="#about" className="hover:text-blue-600 transition duration-300">About</HashLink></li>
-                                <li><HashLink to="#services" className="hover:text-blue-600 transition duration-300">Services</HashLink></li>
-                                <li><HashLink to="#contact" className="hover:text-blue-600 transition duration-300">Contact</HashLink></li>
+                                <li><HashLink to="/aboutus" className="hover:text-blue-600 transition duration-300">About</HashLink></li>
+                                <li><HashLink to="/Services" className="hover:text-blue-600 transition duration-300">Services</HashLink></li>
+                                <li><HashLink to="/Products" className="hover:text-blue-600 transition duration-300">Products</HashLink></li>
+                                <li><HashLink to="/contact" className="hover:text-blue-600 transition duration-300">Contact</HashLink></li>
                             </ul>
                         </div>
 
@@ -47,7 +48,7 @@ const Footer = () => {
                     </div>
 
                     {/* Bottom copyright section */}
-                    <div className="mt-8 text-center text-gray-600">
+                    <div className=" text-center text-gray-600">
                         <p>&copy; {new Date().getFullYear()} Boticx. All rights reserved.</p>
                     </div>
 
