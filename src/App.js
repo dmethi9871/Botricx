@@ -17,6 +17,7 @@ import IntroPage from './components/Intropage1';
 import ServicesPage1 from './components/ServicesPage1';
 import PortfolioPage1 from './components/Portfoliopage1';
 import DemoProduct from './pages/DemoProduct';
+import LearnMore from './components/LearnMore';
 
 function App() {
   useEffect(() => {
@@ -33,7 +34,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
+  useDocTitle("Boticx - Future Proofing Ideas");
 
   return (
     <>
@@ -47,6 +48,7 @@ function App() {
             <Route path="/Products" element={<PortfolioPage1/>} />
             <Route path="/Services" element={<ServicesPage1 />} />
             <Route path="/get-demo" element={<DemoProduct/>} />
+            <Route path="/LearnMore" element={<LearnMore/>} />
           </Routes>
         </ScrollToTop>
       </Router>

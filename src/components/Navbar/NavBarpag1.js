@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import NavLinks from './NavLinks';
 import { HashLink } from 'react-router-hash-link';
-import logo from '../../images/CoolBrains-removebg-preview.png'; // Adjust the path as necessary
+import logo from '../../images/Boticx.svg'; // Adjust the path as necessary
 
 const NavBarpag1 = () => {
     const [top, setTop] = useState(!window.scrollY);

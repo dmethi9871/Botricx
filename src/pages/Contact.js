@@ -6,7 +6,7 @@ import Notiflix from 'notiflix';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
-    useDocTitle('MLD | Molad e Konsult - Send us a message');
+    useDocTitle('Boticx - Send us a message');
 
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
@@ -176,7 +176,7 @@ const Contact = () => {
                                 
                                     <div className='mt-5'>
                                         <h2 className="text-2xl">Send an E-mail</h2>
-                                        <p className="text-gray-400">info@mld.ng</p>
+                                        <p className="text-gray-400">info@Boticx.ng</p>
                                     </div>
                             
                                 </div>

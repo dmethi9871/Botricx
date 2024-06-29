@@ -18,12 +18,12 @@ const Services = () => {
         </div>
 
         <div className="px-12" data-aos="fade-down" data-aos-delay="600">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
             {/* RPA Consulting */}
             <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
               <div className="m-2 text-justify text-sm">
                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
-                <h2 className="font-semibold my-4 text-2xl text-center">RPA</h2>
+                <h2 className="font-semibold my-4 text-xl text-center">Intelligent Automation</h2>
                 <div className="text-md font-medium">
                   <ul className="list-disc list-inside">
                     <li className="flex items-center my-2">
@@ -47,7 +47,7 @@ const Services = () => {
             <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
               <div className="m-2 text-justify text-sm">
                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
-                <h2 className="font-semibold my-4 text-2xl text-center">Industry Solutions</h2>
+                <h2 className="font-semibold my-4 text-xl text-center">Generative AI  </h2>
                 <div className="text-md font-medium">
                   <ul className="list-disc list-inside">
                     <li className="flex items-center my-2">
@@ -74,7 +74,7 @@ const Services = () => {
             <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
               <div className="m-2 text-justify text-sm">
                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
-                <h2 className="font-semibold my-4 text-2xl text-center">Business Functions</h2>
+                <h2 className="font-semibold my-4 text-xl text-center">AI product development</h2>
                 <div className="text-md font-medium">
                   <ul className="list-disc list-inside">
                     <li className="flex items-center my-2">
@@ -93,12 +93,37 @@ const Services = () => {
                 </div>
               </div>
             </div>
+            <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+              <div className="m-2 text-justify text-sm">
+                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
+                <h2 className="font-semibold my-4 text-xl text-center">Edge Computing</h2>
+                <div className="text-md font-medium">
+                  <ul className="list-disc list-inside">
+                    <li className="flex items-center my-2">
+                      <FaChartLine className="text-green-500 mr-2" /> Banking & Financial Services
+                    </li>
+                    <li className="flex items-center my-2">
+                      <FaStethoscope className="text-green-500 mr-2" /> Healthcare
+                    </li>
+                    <li className="flex items-center my-2">
+                      <FaIndustry className="text-green-500 mr-2" /> Manufacturing & High Tech
+                    </li>
+                    <li className="flex items-center my-2">
+                      <FaStore className="text-green-500 mr-2" /> Retail & Consumer Goods
+                    </li>
+                    <li className="flex items-center my-2">
+                      <FaNetworkWired className="text-green-500 mr-2" /> Telecommunications
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
 
             {/* Resources */}
             <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
               <div className="m-2 text-justify text-sm">
                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
-                <h2 className="font-semibold my-4 text-2xl text-center">Resources</h2>
+                <h2 className="font-semibold my-4 text-2xl text-center">AIOT</h2>
                 <div className="text-md font-medium">
                   <ul className="list-disc list-inside">
                     <li className="flex items-center my-2">

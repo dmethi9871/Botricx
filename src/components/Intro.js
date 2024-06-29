@@ -15,14 +15,14 @@ const Intro = () => {
             <img alt="card img" className="rounded-t float-right w-full h-auto" src={img} />
           </div>
           <div className="flex-col my-6 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8" data-aos="zoom-in" data-aos-delay="500">
-            <h3 className="text-2xl text-custom-blue font-bold">Welcome to Botix: Where Innovation Meets Automation</h3>
+            <h3 className="text-2xl text-custom-blue font-bold">Welcome to Boticx: Where Innovation Meets Deep Technologies</h3>
             <div className="my-6 flex items-center justify-center lg:justify-start">
               <FaRobot className="text-4xl text-custom-blue mr-4" />
               <p className='text-l text-gray-600 font-semibold'>We lead the digital renaissance by seamlessly integrating human intellect with robotic precision, setting new standards in efficiency and reliability.</p>
             </div>
             <div className="my-6 flex items-center justify-center lg:justify-start">
               <FaLightbulb className="text-3xl text-custom-blue mr-4" />
-              <p className='text-l text-gray-600 font-semibold'>With Boticx, specializing in RPA, we elevate mundane processes into intelligent workflows, enhancing productivity and operational excellence.</p>
+              <p className='text-l text-gray-600 font-semibold'>With Boticx, specializing in Intelligent Automation Everywhere, we elevate mundane processes into intelligent workflows, enhancing productivity and operational excellence.</p>
             </div>
             <div className="my-6 flex items-center justify-center lg:justify-start">
               <FaRocket className="text-4xl text-custom-blue mr-4" />

@@ -18,11 +18,11 @@ const Hero = () => {
             <div className="relative flex flex-col items-center justify-center h-full text-center text-white pt-20"> {/* Added padding-top */}
                 <NavBar />
                 <div className="px-6 mb-12 mt-8">
-                    <h1 className="text-4xl md:text-6xl font-bold mb-4">Discover the future with Boticx</h1>
-                    <p className="text-xl mb-6">Future Proofing Ideas</p>
+                    <h1 className="text-4xl md:text-4xl font-bold mb-4">Discover the future of responsible Technology with Boticx</h1>
+                    <p className="text-2xl mb-6">Future Proofing Ideas</p>
                     <div className="space-x-4">
                         <Link
-                            to="/contact"
+                            to="/LearnMore"
                             className="text-white bg-custom-blue hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
                         >
                             Learn more

@@ -14,7 +14,7 @@ const VisionAndMission = () => {
               <h3 className="text-3xl text-custom-blue font-bold"><span className="font-black">Mission</span></h3>
               <div>
                 <p className="my-3 text-xl text-gray-600 font-semibold">
-                To be the leading provider of innovative and intelligent AI solutions that empower organasations to seamlessly  manage their work.
+                To be the leading AI Solution provider of innovative and intelligent AI solutions that empower organasations & Society to democratise technology for good.
                 </p>
               </div>
             </div>
