@@ -26,10 +26,10 @@ const Intro = () => {
             </div>
             <div className="my-6 flex items-center justify-center lg:justify-start">
               <FaRocket className="text-4xl text-custom-blue mr-4" />
-              <p className='text-l text-gray-600 font-semibold'>Through automation, we empower businesses to redirect their focus towards innovation and growth, fostering a dynamic environment for success.</p>
+              <p className='text-l text-gray-600 font-semibold'>Through intelligent automation, we empower businesses to redirect their focus towards innovation and growth, fostering a dynamic environment for success.</p>
             </div>
             <div className="my-6">
-              <p className='text-l text-gray-600 font-semibold'>Guided by a vision of technological enhancement of human potential, we have successfully automated thousands of processes, paving the way for a future where possibilities are limitless.</p>
+              <p className='text-l text-gray-600 font-semibold'>Guided by a vision of technological enhancement of human potential, we have successfully achieved  customer experience and pragmatic future proofing solutions, paving the way for a future where possibilities are limitless.</p>
             </div>
             <Link to="/contact" className="text-white bg-custom-blue hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group">
               Join the Movement

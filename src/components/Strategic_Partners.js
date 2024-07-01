@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import img5 from '../images/sailogo.svg';
 import img4 from '../images/Brainwave.png';
 import { FaLightbulb, FaRobot, FaRocket } from 'react-icons/fa';
+import { HashLink } from 'react-router-hash-link';
 
 const Strategic_Partners = () => {
     return (
@@ -40,9 +41,9 @@ const Strategic_Partners = () => {
               <p className='text-l text-gray-600 font-semibold'>SmartedgeAI is a cutting-edge DeepTech research organization that specializes in deep technologies, leveraging GenAI and Edge computing and embedded to drive transformation in various sectors like generative AI , Edge AI , Carbon.</p>
             </div>
             <div className="flex-col my-6 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8" data-aos="zoom-in" data-aos-delay="500">
-            <Link to="https://smartedgeai.com/" className="text-white bg-custom-blue hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group">
+            <HashLink to="https://smartedgeai.com/" className="text-white bg-custom-blue hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group">
               Join the Movement
-            </Link>
+            </HashLink>
             </div>
           </div>
           <div className="flex-col my-6 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8" data-aos="zoom-in" data-aos-delay="500">

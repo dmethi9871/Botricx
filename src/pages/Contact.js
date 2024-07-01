@@ -7,7 +7,7 @@ import emailjs from 'emailjs-com';
 import { FiMapPin } from 'react-icons/fi';
 
 const Contact = () => {
-    useDocTitle('Boticx - Send us a message');
+    useDocTitle('Boticx - Happy to help , please connect!!');
 
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
@@ -79,7 +79,7 @@ const Contact = () => {
                     <form onSubmit={sendEmail}>
                         <div className="w-full bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
                             <div className="flex">
-                                <h1 className="font-bold text-center lg:text-left text-custom-blue00 uppercase text-4xl">Send us a message</h1>
+                                <h1 className="font-bold text-center lg:text-left text-custom-blue00 uppercase text-4xl">Happy to help , please connect!!</h1>
                             </div>
                             <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
                                 <div>
