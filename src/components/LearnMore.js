@@ -1,17 +1,19 @@
 import React from 'react';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import NavBar from './Navbar/NavBar';
 import Footer from './Footer';
-import { FiClock, FiTarget } from 'react-icons/fi'; // Example icons from react-icons library
-import Image1 from '../images/Aboutus.png'; // Example image import
+import { FiAward, FiStar } from 'react-icons/fi'; // Importing new icons
+import Image1 from '../images/Aboutus.png';
+import Image2 from '../images/WhatsApp Image 2024-07-01 at 15.59.52_5695fc9a.jpg';
+import Image3 from '../images/WhatsApp Image 2024-07-01 at 16.00.28_4aeacde5.jpg'; // Example image import
+// import VideoThumbnail from '../images/'; // Example video thumbnail image
 
 function LearnMore() {
     return (
         <>
             <NavBar />
-<br/>
-<br/>
-<br/>
-            <div className=" py-12">
+            <div className="pt-16 pb-12">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="lg:text-center">
                         <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Our Humble & Nimble Journey So Far!!</h2>
@@ -25,23 +27,32 @@ function LearnMore() {
                         <div className="relative">
                             <div className="relative">
                                 <div className="flex items-center justify-center w-12 h-12 rounded-md bg-indigo-500 text-white">
-                                    <FiClock className="w-6 h-6" />
+                                    <FiAward className="w-6 h-6" /> {/* New icon */}
                                 </div>
                                 <p className="mt-6 text-lg leading-6 font-medium text-gray-900">Founding</p>
-                                <p className="mt-2 text-base leading-6 text-gray-500">Established the company in 20XX.</p>
+                                <p className="mt-2 text-base leading-6 text-gray-500">Our company began with a bold vision to innovate and lead the industry. From the very start, we have been dedicated to initiating change and setting new standards.</p>
                             </div>
                         </div>
 
                         <div className="relative">
                             <div className="relative">
                                 <div className="flex items-center justify-center w-12 h-12 rounded-md bg-indigo-500 text-white">
-                                    <FiTarget className="w-6 h-6" />
+                                    <FiStar className="w-6 h-6" /> {/* New icon */}
                                 </div>
-                                <p className="mt-6 text-lg leading-6 font-medium text-gray-900">First Milestone</p>
-                                <p className="mt-2 text-base leading-6 text-gray-500">Achieved XYZ milestone in 20XX.</p>
+                                <p className="mt-6 text-lg leading-6 font-medium text-gray-900">Journey</p>
+                                <p className="mt-2 text-base leading-6 text-gray-500">The journey of our company has been marked by continuous growth and improvement. Every challenge we face is an opportunity to learn and evolve. Our team's dedication and hard work drive us forward.</p>
                             </div>
                         </div>
 
+                        <div className="relative">
+                            <div className="relative">
+                                <div className="flex items-center justify-center w-12 h-12 rounded-md bg-indigo-500 text-white">
+                                    <FiStar className="w-6 h-6" /> {/* New icon */}
+                                </div>
+                                <p className="mt-6 text-lg leading-6 font-medium text-gray-900">Success</p>
+                                <p className="mt-2 text-base leading-6 text-gray-500">Success is not just a destination for us; it's a continuous pursuit. We measure our success by the satisfaction of our clients and the positive impact we make in the industry. Together, we build a legacy of excellence.</p>
+                            </div>
+                        </div>
                         {/* Add more timeline items as needed */}
                     </div>
 
@@ -56,20 +67,52 @@ function LearnMore() {
                         </div>
                     </div>
 
-                    <div className="mt-16 flex flex-col items-center space-y-8">
-                        <div className="max-w-lg">
-                            <img src={Image1} alt="About us" className="rounded-lg shadow-lg" />
-                        </div>
-                        <div className="max-w-lg">
-                            <p className="text-xl text-gray-800">A glimpse into our company culture and team.</p>
-                        </div>
+                    <div className="mt-16">
+                        <Carousel showThumbs={false} infiniteLoop useKeyboardArrows autoPlay className="h-96">
+                            <div className="h-full w-full flex items-center justify-center bg-gray-100">
+                                <img src={Image2} alt="About us" className="rounded-lg shadow-lg max-h-96 w-full object-contain" />
+                                <p className="legend">A glimpse into our company culture and team.</p>
+                            </div>
+                            <div className="h-full w-full flex items-center justify-center bg-gray-100">
+                                <img src={Image3} alt="About us" className="rounded-lg shadow-lg max-h-96 w-full object-contain" />
+                                <p className="legend">A glimpse into our company culture and team.</p>
+                            </div>
+                            <div className="h-full w-full flex items-center justify-center bg-gray-100">
+                                <iframe
+                                    width="560"
+                                    height="315"
+                                    src="https://www.youtube.com/embed/i4Bz_SWRrFs?si=h1ODZzeIOA-lT7x5"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerPolicy="strict-origin-when-cross-origin"
+                                    allowFullScreen
+                                    className="rounded-lg shadow-lg max-h-96 w-full object-contain"
+                                ></iframe>
+                            </div>
+                            <div className="h-full w-full flex items-center justify-center bg-gray-100">
+                                <iframe
+                                    width="560"
+                                    height="315"
+                                    src="https://www.youtube.com/embed/uJA728Bi8-0?si=Km62PQcvekhpj5ZO"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerPolicy="strict-origin-when-cross-origin"
+                                    allowFullScreen
+                                    className="rounded-lg shadow-lg max-h-96 w-full object-contain"
+                                ></iframe>
+                            </div>
+                        </Carousel>
                     </div>
                 </div>
             </div>
-
             <Footer />
         </>
     );
 }
 
 export default LearnMore;
+
+
+
