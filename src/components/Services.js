@@ -4,7 +4,7 @@ import img from '../images/blockchain-development.gif';
 import img2 from '../images/about.gif';
 import img3 from '../images/Launchy-ani-5.gif';
 import img4 from '../images/image_processing20200407-22533-gselen.gif';
-
+import img5 from '../images/tumblr_inline_ppn2rfyfzy1v5srb7_640.webp';
 const Services = () => {
   return (
     <div className="py-12" id="services">
@@ -19,7 +19,7 @@ const Services = () => {
 
         <div className="px-12" data-aos="fade-down" data-aos-delay="600">
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
-            {/* RPA Consulting */}
+            {/* Intelligent Automation */}
             <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
               <div className="m-2 text-justify text-sm">
                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
@@ -27,99 +27,86 @@ const Services = () => {
                 <div className="text-md font-medium">
                   <ul className="list-disc list-inside">
                     <li className="flex items-center my-2">
-                      <FaRobot className="text-green-500 mr-2" /> RPA Consulting
+                      <FaRobot className="text-green-500 mr-2" /> Artificial Intelligence (AI)
                     </li>
                     <li className="flex items-center my-2">
-                      <FaTools className="text-green-500 mr-2" /> RPA Development
+                      <FaTools className="text-green-500 mr-2" /> Robotic Process Automation (RPA)
                     </li>
                     <li className="flex items-center my-2">
-                      <FaClipboardList className="text-green-500 mr-2" /> RPA Implementation
-                    </li>
-                    <li className="flex items-center my-2">
-                      <FaTools className="text-green-500 mr-2" /> RPA Support & Maintenance
+                      <FaClipboardList className="text-green-500 mr-2" /> Business Process Management (BPM)
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            {/* Industry Solutions */}
+            {/* Generative AI */}
             <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
               <div className="m-2 text-justify text-sm">
                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
-                <h2 className="font-semibold my-4 text-xl text-center">Generative AI  </h2>
+                <h2 className="font-semibold my-4 text-xl text-center">Generative AI</h2>
                 <div className="text-md font-medium">
                   <ul className="list-disc list-inside">
                     <li className="flex items-center my-2">
-                      <FaChartLine className="text-green-500 mr-2" /> Banking & Financial Services
+                      <FaChartLine className="text-green-500 mr-2" /> Generative Artificial Intelligence
                     </li>
                     <li className="flex items-center my-2">
-                      <FaStethoscope className="text-green-500 mr-2" /> Healthcare
-                    </li>
-                    <li className="flex items-center my-2">
-                      <FaIndustry className="text-green-500 mr-2" /> Manufacturing & High Tech
-                    </li>
-                    <li className="flex items-center my-2">
-                      <FaStore className="text-green-500 mr-2" /> Retail & Consumer Goods
-                    </li>
-                    <li className="flex items-center my-2">
-                      <FaNetworkWired className="text-green-500 mr-2" /> Telecommunications
+                      <FaStethoscope className="text-green-500 mr-2" /> Multimodal Artificial Intelligence
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            {/* Business Functions */}
+            {/* AI Product Development */}
             <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
               <div className="m-2 text-justify text-sm">
                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
-                <h2 className="font-semibold my-4 text-xl text-center">AI product development</h2>
+                <h2 className="font-semibold my-4 text-xl text-center">AI Product Development</h2>
                 <div className="text-md font-medium">
                   <ul className="list-disc list-inside">
                     <li className="flex items-center my-2">
-                      <FaUserFriends className="text-green-500 mr-2" /> Human Resources
+                      <FaUserFriends className="text-green-500 mr-2" /> Automating Tasks
                     </li>
                     <li className="flex items-center my-2">
-                      <FaDollarSign className="text-green-500 mr-2" /> Finance & Accounting
+                      <FaDollarSign className="text-green-500 mr-2" /> Analyzing Data
                     </li>
                     <li className="flex items-center my-2">
-                      <FaChartLine className="text-green-500 mr-2" /> Sales & Marketing
-                    </li>
-                    <li className="flex items-center my-2">
-                      <FaLaptop className="text-green-500 mr-2" /> IT & Infrastructure
+                      <FaChartLine className="text-green-500 mr-2" /> Enhancing Decision-Making
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
+
+            {/* Edge Computing */}
             <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
               <div className="m-2 text-justify text-sm">
-                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
+                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img5} />
                 <h2 className="font-semibold my-4 text-xl text-center">Edge Computing</h2>
                 <div className="text-md font-medium">
                   <ul className="list-disc list-inside">
                     <li className="flex items-center my-2">
-                      <FaChartLine className="text-green-500 mr-2" /> Banking & Financial Services
+                      <FaChartLine className="text-green-500 mr-2" /> Real Time Video Analysis
                     </li>
                     <li className="flex items-center my-2">
-                      <FaStethoscope className="text-green-500 mr-2" /> Healthcare
+                      <FaStethoscope className="text-green-500 mr-2" /> Improved Patient Outcomes
                     </li>
                     <li className="flex items-center my-2">
-                      <FaIndustry className="text-green-500 mr-2" /> Manufacturing & High Tech
+                      <FaIndustry className="text-green-500 mr-2" /> Fraud Detection
                     </li>
                     <li className="flex items-center my-2">
-                      <FaStore className="text-green-500 mr-2" /> Retail & Consumer Goods
+                      <FaStore className="text-green-500 mr-2" /> Better Supply Chain Management
                     </li>
                     <li className="flex items-center my-2">
-                      <FaNetworkWired className="text-green-500 mr-2" /> Telecommunications
+                      <FaNetworkWired className="text-green-500 mr-2" /> Crop Health Monitoring
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            {/* Resources */}
+            {/* AIOT */}
             <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
               <div className="m-2 text-justify text-sm">
                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
@@ -127,10 +114,19 @@ const Services = () => {
                 <div className="text-md font-medium">
                   <ul className="list-disc list-inside">
                     <li className="flex items-center my-2">
-                      <FaFileAlt className="text-green-500 mr-2" /> Case Studies
+                      <FaFileAlt className="text-green-500 mr-2" /> Risk Management
                     </li>
                     <li className="flex items-center my-2">
-                      <FaFileAlt className="text-green-500 mr-2" /> Blogs and Articles
+                      <FaFileAlt className="text-green-500 mr-2" /> Real Time Health Analysis
+                    </li>
+                    <li className="flex items-center my-2">
+                      <FaFileAlt className="text-green-500 mr-2" /> Operational Efficiency
+                    </li>
+                    <li className="flex items-center my-2">
+                      <FaFileAlt className="text-green-500 mr-2" /> Costing
+                    </li>
+                    <li className="flex items-center my-2">
+                      <FaFileAlt className="text-green-500 mr-2" /> Customer Experience
                     </li>
                   </ul>
                 </div>

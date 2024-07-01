@@ -8,6 +8,9 @@ import Portfolio from '../components/Portfolio';
 import Services from '../components/Services';
 import Keypoints from '../components/Keypoints';
 import VisonAndMisson from '../components/VisonAndMisson';
+import NavBar from '../components/Navbar/NavBar';
+import NavBarpag1 from '../components/Navbar/NavBarpag1';
+import Strategic_Partners from '../components/Strategic_Partners';
 
 
 const Home = () => {
@@ -19,6 +22,7 @@ const Home = () => {
             <Services />
             <VisonAndMisson/>
             <Portfolio />
+            <Strategic_Partners/>
             <Clients />
             <Cta/>
             <Footer />

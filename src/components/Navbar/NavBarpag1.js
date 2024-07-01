@@ -38,15 +38,17 @@ const NavBarpag1 = () => {
                                 )}
                             </svg>
                         </button>
-                        <div className='hidden space-x-6 lg:inline-block p-5'>
+                        <div className='hidden space-x-6 mr-5 lg:inline-block p-5 mr-10'>
                             <NavLinks />
                         </div>
 
-                        <div className={`fixed transition-transform duration-300 ease-in-out flex justify-center left-0 w-full h-auto rounded-md p-24 bg-white lg:hidden shadow-xl top-14 ${isOpen ? "block" : "hidden"}`}>
+                        <div className={`fixed transition-transform duration-300 ease-in-out flex justify-center left-0 w-full h-auto rounded-md p-24 bg-white lg:hidden shadow-xl top-14 mr-20 ${isOpen ? "block" : "hidden"}`}>
                             <div className='flex flex-col space-y-6'>
-                                <NavLinks />
-                            </div>                                                
+                            
+                            <NavBarpag1/>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </nav>

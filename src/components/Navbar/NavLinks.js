@@ -41,17 +41,18 @@ const NavLinks = () => {
                 to="/contact"
             >
                 <div className="flex items-center space-x-2">
-                        <HiOutlineMail className="nav-icon text-white" />
+                        <HiOutlineMail className="nav-icon text-white " />
                         <span className="text-white">Contact Us</span>
                     </div>
             </HashLink>
-            <HashLink
+            <br/>
+            {/* <HashLink
                 className="px-6 py-3 font-semibold text-white bg-gradient-to-r from-blue-500 to-custom-blue hover:from-custom-blue hover:to-blue-500 transition-all duration-300 rounded-full shadow-md"
                 smooth
                 to="/get-demo#demo"
             >
                 Demo our products
-            </HashLink>
+            </HashLink> */}
         </div>
     );
 };

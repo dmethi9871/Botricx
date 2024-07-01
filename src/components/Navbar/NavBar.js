@@ -5,10 +5,10 @@ import logo from '../../images/Boticx.svg'; // Adjust the path as necessary
 
 const NavBar = () => {
     const [top, setTop] = useState(!window.scrollY);
-    const [isOpen, setisOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
 
     const handleClick = () => {
-        setisOpen(!isOpen);
+        setIsOpen(!isOpen);
     };
 
     useEffect(() => {
@@ -37,15 +37,18 @@ const NavBar = () => {
                             )}
                         </svg>
                     </button>
-                    <div className='hidden space-x-6 lg:inline-block p-5'>
+                    <div className='hidden space-x-6 mr-20 lg:inline-block p-5'>
                         <NavLinks />
                     </div>
 
-                    <div className={`fixed transition-transform duration-300 ease-in-out flex justify-center left-0 w-full h-auto rounded-md p-24 bg-white lg:hidden shadow-xl top-14 ${isOpen ? "block" : "hidden"}`}>
-                        <div className='flex flex-col space-y-6'>
-                            <NavLinks />
-                        </div>                                                
-                    </div>
+                    <div className={`fixed transition-transform duration-300 ease-in-out flex flex-col justify-start left-0 w-auto h-full rounded-md p-6 bg-transparent lg:hidden top-14 mr-10 transform ${isOpen ? "scale-100" : "scale-0"} ${isOpen ? "opacity-100" : "opacity-0"}`}>
+    <div className='flex flex-col space-y-6'>
+        <NavLinks className="transition-opacity duration-500 ease-in-out" />
+    </div>                                                
+</div>
+
+
+
                 </div>
             </div>
         </nav>
