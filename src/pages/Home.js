@@ -8,11 +8,14 @@ import Portfolio from '../components/Portfolio';
 import Services from '../components/Services';
 import Keypoints from '../components/Keypoints';
 import VisonAndMisson from '../components/VisonAndMisson';
+import NavBar from '../components/Navbar/NavBar';
+import NavBarpag1 from '../components/Navbar/NavBarpag1';
 
 
 const Home = () => {
     return (
         <>
+        <NavBarpag1/>
             <Hero />
             <Intro />
             <Keypoints/>

@@ -165,7 +165,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             
-                            <div className="flex my-4 w-2/3 lg:w-1/2">
+                            {/* <div className="flex my-4 w-2/3 lg:w-1/2">
                                 <div className="flex flex-col">
                                 <i className="fas fa-phone-alt pt-2 pr-2" />
                                 </div>
@@ -180,7 +180,7 @@ const Contact = () => {
                                     </div>
                             
                                 </div>
-                            </div>
+                            </div> */}
                             
                             <div className="flex my-4 w-2/3 lg:w-1/2">
                                 <a href="https://www.facebook.com/ENLIGHTENEERING/" target="_blank" rel="noreferrer" className="rounded-full flex justify-center bg-white h-8 text-blue-900  w-8 mx-1 text-center pt-1">

@@ -5,10 +5,10 @@ import logo from '../../images/Boticx.svg'; // Adjust the path as necessary
 
 const NavBar = () => {
     const [top, setTop] = useState(!window.scrollY);
-    const [isOpen, setisOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
 
     const handleClick = () => {
-        setisOpen(!isOpen);
+        setIsOpen(!isOpen);
     };
 
     useEffect(() => {
@@ -17,18 +17,18 @@ const NavBar = () => {
         };
         window.addEventListener('scroll', scrollHandler);
         return () => window.removeEventListener('scroll', scrollHandler);
-    }, [top]);
+    }, []);
 
     return (
         <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-white shadow-lg'}`}>
-            <div className="flex flex-row justify-between items-center py-2">
-                <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
+            <div className="flex justify-between items-center py-2 md:px-12">
+                <div className="flex items-center text-center font-semibold">
                     <HashLink smooth to="/">
-                        <img src={logo} alt="CoolBrains Logo" className="h-20" /> {/* Adjust the height as needed */}
+                        <img src={logo} alt="CoolBrains Logo" className="h-16 md:h-20" /> {/* Adjust the height as needed */}
                     </HashLink>
                 </div>
-                <div className="group flex flex-col items-center">
-                    <button className="p-2 rounded-lg lg:hidden text-custom-blue" onClick={handleClick}>
+                <div className="lg:hidden">
+                    <button className="p-2 rounded-lg text-custom-blue" onClick={handleClick} aria-label="Toggle Menu">
                         <svg className="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             {isOpen ? (
                                 <path fillRule="evenodd" clipRule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
@@ -37,15 +37,9 @@ const NavBar = () => {
                             )}
                         </svg>
                     </button>
-                    <div className='hidden space-x-6 lg:inline-block p-5'>
-                        <NavLinks />
-                    </div>
-
-                    <div className={`fixed transition-transform duration-300 ease-in-out flex justify-center left-0 w-full h-auto rounded-md p-24 bg-white lg:hidden shadow-xl top-14 ${isOpen ? "block" : "hidden"}`}>
-                        <div className='flex flex-col space-y-6'>
-                            <NavLinks />
-                        </div>                                                
-                    </div>
+                </div>
+                <div className={`lg:flex lg:items-center ${isOpen ? "block" : "hidden"} absolute transition-transform duration-300 ease-in-out left-0 w-full bg-white shadow-xl top-14 lg:static lg:bg-transparent lg:shadow-none`}>
+                    <NavLinks />
                 </div>
             </div>
         </nav>

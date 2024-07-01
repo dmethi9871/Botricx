@@ -8,7 +8,7 @@ import NavBar from './Navbar/NavBar';
 const Intro = () => {
   return (
     <>
-    <NavBar/>
+    {/* <NavBar/> */}
       <div className="m-auto max-w-7xl p-2 md:p-11 h-5/6" id='about'>
         <div className="flex flex-col-reverse lg:flex-row py-8 justify-between lg:text-left" data-aos="fade-up">
           <div className="lg:w-1/2 h-30 flex flex-col lg:mx-4 justify-center">
