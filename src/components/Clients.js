@@ -19,7 +19,7 @@ const clientImage = {
 
 const Clients = () => {
     const scrollContainerRef = useRef(null);
-    const images = [kws, StrateficInsights, CIM_Finance, HDFC, Indroma, IQEQ, JSW, Avatara];
+    const images = [kws, StrateficInsights,Indroma ,JSW, HDFC,  CIM_Finance, IQEQ,  Avatara];
 
     useEffect(() => {
         const scrollContainer = scrollContainerRef.current;

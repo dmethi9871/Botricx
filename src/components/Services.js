@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRobot, FaIndustry, FaFileAlt, FaTools, FaClipboardList, FaChartLine, FaStethoscope, FaStore, FaNetworkWired, FaUserFriends, FaDollarSign, FaLaptop } from 'react-icons/fa'; // Importing new icons
+import { FaRobot, FaIndustry, FaChartLine, FaStethoscope, FaStore, FaNetworkWired,  FaDollarSign,  FaTasks, FaBrain, FaDatabase, FaUser, FaCog, FaUsers, FaSmile, FaLayerGroup, FaPencilAlt, FaAdjust, FaEye, FaShieldAlt, FaHeartbeat } from 'react-icons/fa'; // Importing new icons
 import img from '../images/blockchain-development.gif';
 import img2 from '../images/about.gif';
 import img3 from '../images/Launchy-ani-5.gif';
@@ -24,60 +24,83 @@ const Services = () => {
               <div className="m-2 text-justify text-sm">
                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
                 <h2 className="font-semibold my-4 text-xl text-center">Intelligent Automation</h2>
-                <div className="text-md font-medium">
-                  <ul className="list-disc list-inside">
-                    <li className="flex items-center my-2">
-                      <FaRobot className="text-green-500 mr-2" /> Artificial Intelligence (AI)
-                    </li>
-                    <li className="flex items-center my-2">
-                      <FaTools className="text-green-500 mr-2" /> Robotic Process Automation (RPA)
-                    </li>
-                    <li className="flex items-center my-2">
-                      <FaClipboardList className="text-green-500 mr-2" /> Business Process Management (BPM)
-                    </li>
-                  </ul>
+              <div className="text-md font-medium">
+                <ul className="list-disc list-inside">
+                  <li className="flex items-center my-2">
+                    <FaRobot className="text-green-500 mr-2" /> Artificial Intelligence
+                  </li>
+                  <li className="flex items-center my-2">
+                    <FaCog className="text-green-500 mr-2" /> Robotic Process Automation
+                  </li>
+                  <li className="flex items-center my-2">
+                    <FaChartLine className="text-green-500 mr-2" /> Business Process Management
+                  </li>
+                  <li className="flex items-center my-2">
+                    <FaUsers className="text-green-500 mr-2" /> Operational Efficiency
+                  </li>
+                  <li className="flex items-center my-2">
+                    <FaSmile className="text-green-500 mr-2" /> Improved Customer Experience
+                  </li>
+                </ul>
                 </div>
               </div>
             </div>
 
             {/* Generative AI */}
             <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-              <div className="m-2 text-justify text-sm">
-                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
-                <h2 className="font-semibold my-4 text-xl text-center">Generative AI</h2>
-                <div className="text-md font-medium">
-                  <ul className="list-disc list-inside">
-                    <li className="flex items-center my-2">
-                      <FaChartLine className="text-green-500 mr-2" /> Generative Artificial Intelligence
-                    </li>
-                    <li className="flex items-center my-2">
-                      <FaStethoscope className="text-green-500 mr-2" /> Multimodal Artificial Intelligence
-                    </li>
-                  </ul>
-                </div>
+            <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+            <div className="m-2 text-justify text-sm">
+              <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
+              <h2 className="font-semibold my-4 text-xl text-center">Generative AI</h2>
+              <div className="text-md font-medium">
+                <ul className="list-disc list-inside">
+                  <li className="flex items-center my-2">
+                    <FaBrain className="text-green-500 mr-2" /> Gen AI
+                  </li>
+                  <li className="flex items-center my-2">
+                    <FaLayerGroup className="text-green-500 mr-2" /> Multimodal AI
+                  </li>
+                  <li className="flex items-center my-2">
+                    <FaPencilAlt className="text-green-500 mr-2" /> Prompt Engineering
+                  </li>
+                  <li className="flex items-center my-2">
+                    <FaAdjust className="text-green-500 mr-2" /> Fine Tuning
+                  </li>
+                  <li className="flex items-center my-2">
+                    <FaEye className="text-green-500 mr-2" /> Attention Mechanism
+                  </li>
+                </ul>
               </div>
+            </div>
+            </div>
             </div>
 
             {/* AI Product Development */}
             <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-              <div className="m-2 text-justify text-sm">
-                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
-                <h2 className="font-semibold my-4 text-xl text-center">AI Product Development</h2>
-                <div className="text-md font-medium">
-                  <ul className="list-disc list-inside">
-                    <li className="flex items-center my-2">
-                      <FaUserFriends className="text-green-500 mr-2" /> Automating Tasks
-                    </li>
-                    <li className="flex items-center my-2">
-                      <FaDollarSign className="text-green-500 mr-2" /> Analyzing Data
-                    </li>
-                    <li className="flex items-center my-2">
-                      <FaChartLine className="text-green-500 mr-2" /> Enhancing Decision-Making
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+  <div className="m-2 text-justify text-sm">
+    <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
+    <h2 className="font-semibold my-4 text-xl text-center">AI Product Development</h2>
+    <div className="text-md font-medium">
+      <ul className="list-disc list-inside">
+        <li className="flex items-center my-2">
+          <FaRobot className="text-green-500 mr-2" /> Automating Tasks
+        </li>
+        <li className="flex items-center my-2">
+          <FaDatabase className="text-green-500 mr-2" /> Analyzing Data
+        </li>
+        <li className="flex items-center my-2">
+          <FaBrain className="text-green-500 mr-2" /> Enhancing Decision-Making
+        </li>
+        <li className="flex items-center my-2">
+          <FaTasks className="text-green-500 mr-2" /> Automating routine tasks
+        </li>
+        <li className="flex items-center my-2">
+          <FaUser className="text-green-500 mr-2" /> Enhanced user personalization
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
             {/* Edge Computing */}
             <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
@@ -108,30 +131,30 @@ const Services = () => {
 
             {/* AIOT */}
             <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-              <div className="m-2 text-justify text-sm">
-                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
-                <h2 className="font-semibold my-4 text-2xl text-center">AIOT</h2>
-                <div className="text-md font-medium">
-                  <ul className="list-disc list-inside">
-                    <li className="flex items-center my-2">
-                      <FaFileAlt className="text-green-500 mr-2" /> Risk Management
-                    </li>
-                    <li className="flex items-center my-2">
-                      <FaFileAlt className="text-green-500 mr-2" /> Real Time Health Analysis
-                    </li>
-                    <li className="flex items-center my-2">
-                      <FaFileAlt className="text-green-500 mr-2" /> Operational Efficiency
-                    </li>
-                    <li className="flex items-center my-2">
-                      <FaFileAlt className="text-green-500 mr-2" /> Costing
-                    </li>
-                    <li className="flex items-center my-2">
-                      <FaFileAlt className="text-green-500 mr-2" /> Customer Experience
-                    </li>
-                  </ul>
-                </div>
+            <div className="m-2 text-justify text-sm">
+              <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
+              <h2 className="font-semibold my-4 text-2xl text-center">AIOT</h2>
+              <div className="text-md font-medium">
+                <ul className="list-disc list-inside">
+                  <li className="flex items-center my-2">
+                    <FaShieldAlt className="text-green-500 mr-2" /> Risk Management
+                  </li>
+                  <li className="flex items-center my-2">
+                    <FaHeartbeat className="text-green-500 mr-2" /> Real Time Health Analysis
+                  </li>
+                  <li className="flex items-center my-2">
+                    <FaCog className="text-green-500 mr-2" /> Operational Efficiency
+                  </li>
+                  <li className="flex items-center my-2">
+                    <FaDollarSign className="text-green-500 mr-2" /> Costing
+                  </li>
+                  <li className="flex items-center my-2">
+                    <FaSmile className="text-green-500 mr-2" /> Customer Experience
+                  </li>
+                </ul>
               </div>
-            </div>
+              </div>
+              </div>
           </div>
         </div>
       </section>

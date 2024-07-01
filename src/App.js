@@ -13,11 +13,15 @@ import Contact from './pages/Contact';
 import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
 import Keypoints from './components/Keypoints';
-import IntroPage from './components/Intropage1';
+
 import ServicesPage1 from './components/ServicesPage1';
 import PortfolioPage1 from './components/Portfoliopage1';
 import DemoProduct from './pages/DemoProduct';
 import LearnMore from './components/LearnMore';
+import Hero from './components/Hero';
+import Intropage1 from './components/Intropage1';
+
+
 
 function App() {
   useEffect(() => {
@@ -43,7 +47,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/aboutus" element={<IntroPage/>} />
+            <Route path="/aboutus" element={<Intropage1/>} />
             <Route path="/Keypoints" element={<Keypoints/>} />
             <Route path="/Products" element={<PortfolioPage1/>} />
             <Route path="/Services" element={<ServicesPage1 />} />

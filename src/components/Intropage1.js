@@ -1,25 +1,21 @@
 import React from 'react';
+import NavBar from './Navbar/NavBar';
+import Portfolio from './Portfolio';
 import Footer from './Footer';
 import Intro from './Intro';
-import NavBarpage1 from './Navbar/NavBarpag1';
 
-const IntroPage = () => {
+
+const  Intropage1= () => {
   return (
     <>
-    <NavBarpage1/>
-    <h1>
-
-      <br/>
-      
-      <br/>
-      
-      <br/>
-      
-    </h1>
-      <Intro/>
-      <Footer/>
-    </>
+   <NavBar/>
+        <br/>
+        <br/>
+            <Intro/>
+            <Footer/>
+        </>
+    
   )
 }
 
-export default IntroPage;
+export default Intropage1;
