@@ -23,7 +23,7 @@ const Home = () => {
             <Keypoints/>
             <Services />
             <VisonAndMisson/>
-            <Portfolio />
+           
             <Strategic_Partners/>
             <Clients />
             <Cta/>

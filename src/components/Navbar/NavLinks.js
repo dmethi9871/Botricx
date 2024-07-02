@@ -25,7 +25,7 @@ const NavLinks = () => {
                         <span className="text-white">Services</span>
                     </div>
             </HashLink>
-            <HashLink
+            {/* <HashLink
                 className="px-4 py-2 font-semibold text-white hover:text-gray-100 transition-colors duration-300 bg-gradient-to-r from-blue-500 to-custom-blue rounded-lg shadow-md"
                 smooth
                 to="/Products"
@@ -34,7 +34,7 @@ const NavLinks = () => {
                         <HiOutlineBriefcase className="nav-icon text-white" />
                         <span className="text-white">Products</span>
                     </div>
-            </HashLink>
+            </HashLink> */}
             <HashLink
                 className="px-4 py-2 font-semibold text-white hover:text-gray-100 transition-colors duration-300 bg-gradient-to-r from-blue-500 to-custom-blue rounded-lg shadow-md"
                 smooth

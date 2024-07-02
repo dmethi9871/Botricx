@@ -39,8 +39,9 @@ const Footer = () => {
                             <ul className="text-l text-gray-800 mb-4">
                                 <li><HashLink to="/aboutus" className="hover:text-blue-600 transition duration-300">About</HashLink></li>
                                 <li><HashLink to="/Services" className="hover:text-blue-600 transition duration-300">Services</HashLink></li>
-                                <li><HashLink to="/Products" className="hover:text-blue-600 transition duration-300">Products</HashLink></li>
+                                {/* <li><HashLink to="/Products" className="hover:text-blue-600 transition duration-300">Products</HashLink></li> */}
                                 <li><HashLink to="/contact" className="hover:text-blue-600 transition duration-300">Contact</HashLink></li>
+                                <li><HashLink to="/LearnMore" className="hover:text-blue-600 transition duration-300">Learn More</HashLink></li>
                             </ul>
                         </div>
 

@@ -49,7 +49,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/aboutus" element={<Intropage1/>} />
             <Route path="/Keypoints" element={<Keypoints/>} />
-            <Route path="/Products" element={<PortfolioPage1/>} />
+            {/* <Route path="/Products" element={<PortfolioPage1/>} /> */}
             <Route path="/Services" element={<ServicesPage1 />} />
             <Route path="/get-demo" element={<DemoProduct/>} />
             <Route path="/LearnMore" element={<LearnMore/>} />

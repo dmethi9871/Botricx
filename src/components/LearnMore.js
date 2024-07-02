@@ -41,38 +41,7 @@ function LearnMore() {
                         </ul>
                     </div>
 
-                    <div className="mt-10 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-8 lg:mt-12">
-                        <div className="relative">
-                            <div className="relative">
-                                <div className="flex items-center justify-center w-12 h-12 rounded-md bg-indigo-500 text-white">
-                                    <FiAward className="w-6 h-6" /> {/* New icon */}
-                                </div>
-                                <p className="mt-6 text-lg leading-6 font-medium text-gray-900">Founding</p>
-                                <p className="mt-2 text-base leading-6 text-gray-500">Our company began with a bold vision to innovate and lead the industry. From the very start, we have been dedicated to initiating change and setting new standards.</p>
-                            </div>
-                        </div>
-
-                        <div className="relative">
-                            <div className="relative">
-                                <div className="flex items-center justify-center w-12 h-12 rounded-md bg-indigo-500 text-white">
-                                    <FiStar className="w-6 h-6" /> {/* New icon */}
-                                </div>
-                                <p className="mt-6 text-lg leading-6 font-medium text-gray-900">Journey</p>
-                                <p className="mt-2 text-base leading-6 text-gray-500">The journey of our company has been marked by continuous growth and improvement. Every challenge we face is an opportunity to learn and evolve. Our team's dedication and hard work drive us forward.</p>
-                            </div>
-                        </div>
-
-                        <div className="relative">
-                            <div className="relative">
-                                <div className="flex items-center justify-center w-12 h-12 rounded-md bg-indigo-500 text-white">
-                                    <FiStar className="w-6 h-6" /> {/* New icon */}
-                                </div>
-                                <p className="mt-6 text-lg leading-6 font-medium text-gray-900">Success</p>
-                                <p className="mt-2 text-base leading-6 text-gray-500">Success is not just a destination for us; it's a continuous pursuit. We measure our success by the satisfaction of our clients and the positive impact we make in the industry. Together, we build a legacy of excellence.</p>
-                            </div>
-                        </div>
-                        {/* Add more timeline items as needed */}
-                    </div>
+                  
 
                     <div className="mt-12">
                         <div className="relative">
