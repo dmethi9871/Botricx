@@ -5,7 +5,7 @@ import Founder3 from '../images/founders/WhatsApp Image 2024-07-02 at 14.10.36_b
 import { FaLinkedin } from 'react-icons/fa';
 
 const Cta = () => {
-  // Define founder details
+ 
   const founders = [
     {
       name: 'Avanish Pathak',
@@ -15,6 +15,15 @@ const Cta = () => {
       image: Founder1,
       linkedin: 'https://www.linkedin.com/in/avanish-kumar-pathak-04173639'
     },
+    
+    {
+      name: 'Shailendra Singh',
+      title: 'CEO Mauritius',
+      intro: `Shailendra has over 19 years of experience in Digital Transformation, specializing in Intelligent Hyper Automation, AI, and GenAI in Banking, Financial, and Service industries. He has held key roles such as Head of IT at a Private Bank in Mauritius and joined PwC Mauritius Digital wing. With 12+ years in IT services on Oracle, he also served as Executive Director and Officer-in-Charge at a Private Bank in Mauritius. His expertise spans re-engineering processes, aligning digital tech, and implementation roadmaps across various industries globally.`,
+      quote: 'We see the wave coming. Now this time next year, every company has to implement it — not even have a strategy. Implement it.',
+      image: Founder3,
+      linkedin: 'https://www.linkedin.com/in/shailendra-singh-bb9ab58/'
+    },
     {
       name: 'Atul Koirala',
       title: 'CEO Nepal',
@@ -22,14 +31,6 @@ const Cta = () => {
       quote: 'Human Intelligence (#HI) Shapes the World, While Artificial Intelligence (#AI) Powers It. Stay Aware, Stay Ahead.',
       image: Founder2,
       linkedin: 'https://www.linkedin.com/in/atul-koirala-a9501056'
-    },
-    {
-      name: 'Shailendra',
-      title: 'CEO Mauritius',
-      intro: `Shailendra has over 19 years of experience in Digital Transformation, specializing in Intelligent Hyper Automation, AI, and GenAI in Banking, Financial, and Service industries. He has held key roles such as Head of IT at a Private Bank in Mauritius and joined PwC Mauritius Digital wing. With 12+ years in IT services on Oracle, he also served as Executive Director and Officer-in-Charge at a Private Bank in Mauritius. His expertise spans re-engineering processes, aligning digital tech, and implementation roadmaps across various industries globally.`,
-      quote: 'We see the wave coming. Now this time next year, every company has to implement it — not even have a strategy. Implement it.',
-      image: Founder3,
-      linkedin: 'https://www.linkedin.com/in/shailendra-singh-bb9ab58/'
     }
   ];
 
