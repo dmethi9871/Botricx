@@ -46,13 +46,16 @@ const NavLinks = () => {
                     </div>
             </HashLink>
             <br/>
-            {/* <HashLink
-                className="px-6 py-3 font-semibold text-white bg-gradient-to-r from-blue-500 to-custom-blue hover:from-custom-blue hover:to-blue-500 transition-all duration-300 rounded-full shadow-md"
+            <HashLink
+                className="px-4 py-2 font-semibold text-white hover:text-gray-100 transition-colors duration-300 bg-gradient-to-r from-blue-500 to-custom-blue rounded-lg shadow-md"
                 smooth
-                to="/get-demo#demo"
+                to="/LearnMore"
             >
-                Demo our products
-            </HashLink> */}
+                <div className="flex items-center space-x-2">
+                <HiOutlineInformationCircle className="nav-icon text-white" />
+                <span className="text-white">Learn More</span>
+                    </div>
+            </HashLink>
         </div>
     );
 };

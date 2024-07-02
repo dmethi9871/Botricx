@@ -3,16 +3,23 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import NavBar from './Navbar/NavBar';
 import Footer from './Footer';
-import { FiAward, FiStar } from 'react-icons/fi'; // Importing new icons
+import { FiAward, FiStar } from 'react-icons/fi';
+// Importing new icons
 import Image1 from '../images/Aboutus.png';
 import Image2 from '../images/WhatsApp Image 2024-07-01 at 15.59.52_5695fc9a.jpg';
 import Image3 from '../images/WhatsApp Image 2024-07-01 at 16.00.28_4aeacde5.jpg'; // Example image import
+import { AiFillCheckCircle } from 'react-icons/ai';
+import { BsBriefcaseFill, BsPersonFill } from 'react-icons/bs';
+import { FaBorderNone, FaBrain, FaRobot } from 'react-icons/fa';
 // import VideoThumbnail from '../images/'; // Example video thumbnail image
 
 function LearnMore() {
     return (
         <>
             <NavBar />
+            <br></br>
+            <br />
+            <br />
             <div className="pt-16 pb-12">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="lg:text-center">
@@ -21,6 +28,17 @@ function LearnMore() {
                         <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
                             Here's a visual representation of our company's journey showcasing key milestones and achievements.
                         </p>
+                    </div>
+                    <div className="mt-12">
+                        <h3 className="text-2xl leading-8 font-extrabold tracking-tight text-center text-gray-900 sm:text-3xl">Our Achievements</h3>
+                        <ul className="mt-4 max-w-8xl text-xl text-gray-500 lg:mx-auto space-y-4">
+                            <li><AiFillCheckCircle className="inline-block mr-2 text-green-500" /> Boticx Labs employed close to 80 employees and interns and multiple vendors who did well with us in the journey. Every member that got associated has grown financially and educationally and are doing exponentially well.</li>
+                            <li><BsPersonFill className="inline-block mr-2 text-blue-500" /> Retained AI services business and customer business running from Mauritius.</li>
+                            <li><FaRobot className="inline-block mr-2 text-purple-500" /> First to develop the most advanced humanoid in the social category, sold it to Swedish company Oriflamme (Implemented).</li>
+                            <li><BsBriefcaseFill className="inline-block mr-2 text-yellow-500" /> First to develop Autonomous navigation technology using Lidar to be used by our robot for inhouse complex.</li>
+                            <li><FaBorderNone className="inline-block mr-2 text-red-500" /> First to develop independent platform and use cases of AI using Drone and Camera.</li>
+                            <li><FaBrain className="inline-block mr-2 text-indigo-500" /> Developed the world’s quickest learning and implementable optical recognition bot that could be deployed for various finance functions in any industry (Piloted in L&T).</li>
+                        </ul>
                     </div>
 
                     <div className="mt-10 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-8 lg:mt-12">
@@ -105,6 +123,8 @@ function LearnMore() {
                             </div>
                         </Carousel>
                     </div>
+
+
                 </div>
             </div>
             <Footer />
@@ -113,6 +133,3 @@ function LearnMore() {
 }
 
 export default LearnMore;
-
-
-
