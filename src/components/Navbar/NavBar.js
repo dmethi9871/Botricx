@@ -40,7 +40,7 @@ const NavBar = () => {
                     <div className='hidden space-x-6 lg:inline-block p-5'>
                         <NavLinks />
                     </div>
-                    <div className={`fixed transition-transform duration-300 ease-in-out flex flex-col justify-start left-0 w-full h-full bg-white lg:hidden top-14 transform ${isOpen ? "scale-100" : "scale-0"} ${isOpen ? "opacity-100" : "opacity-0"}`}>
+                    <div className={`fixed transition-transform duration-300 ease-in-out flex flex-col justify-start left-0 w-full h-full lg:hidden top-14 transform ${isOpen ? "scale-100" : "scale-0"} ${isOpen ? "opacity-100" : "opacity-0"}`}>
                         <div className='flex flex-col space-y-6 p-5'>
                             <NavLinks className="transition-opacity duration-500 ease-in-out" />
                         </div>                                                
