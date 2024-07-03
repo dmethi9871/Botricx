@@ -21,13 +21,13 @@ const NavBar = () => {
 
     return (
         <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-white shadow-lg'}`}>
-            <div className="flex flex-row justify-between items-center py-2">
-                <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
+            <div className="flex flex-row justify-between items-center py-2 px-4 md:px-12">
+                <div className="flex flex-row items-center">
                     <HashLink smooth to="/">
-                        <img src={logo} alt="CoolBrains Logo" className="h-20" /> {/* Adjust the height as needed */}
+                        <img src={logo} alt="CoolBrains Logo" className="ml-3 h-20 w-30 md:h-30 md:w-30" /> {/* Adjusted height and width */}
                     </HashLink>
                 </div>
-                <div className="group flex flex-col items-center">
+                <div className="flex flex-col items-center">
                     <button className="p-2 rounded-lg lg:hidden text-custom-blue" onClick={handleClick}>
                         <svg className="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             {isOpen ? (
@@ -37,18 +37,14 @@ const NavBar = () => {
                             )}
                         </svg>
                     </button>
-                    <div className='hidden space-x-6 mr-20 lg:inline-block p-5'>
+                    <div className='hidden space-x-6 lg:inline-block p-5'>
                         <NavLinks />
                     </div>
-
-                    <div className={`fixed transition-transform duration-300 ease-in-out flex flex-col justify-start left-0 w-auto h-full rounded-md p-6 bg-transparent lg:hidden top-14 mr-10 transform ${isOpen ? "scale-100" : "scale-0"} ${isOpen ? "opacity-100" : "opacity-0"}`}>
-    <div className='flex flex-col space-y-6'>
-        <NavLinks className="transition-opacity duration-500 ease-in-out" />
-    </div>                                                
-</div>
-
-
-
+                    <div className={`fixed transition-transform duration-300 ease-in-out flex flex-col justify-start left-0 w-full h-full bg-white lg:hidden top-14 transform ${isOpen ? "scale-100" : "scale-0"} ${isOpen ? "opacity-100" : "opacity-0"}`}>
+                        <div className='flex flex-col space-y-6 p-5'>
+                            <NavLinks className="transition-opacity duration-500 ease-in-out" />
+                        </div>                                                
+                    </div>
                 </div>
             </div>
         </nav>
